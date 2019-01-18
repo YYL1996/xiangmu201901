@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" href="css/index.css" rel="stylesheet"/>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="nav_big">
+			<div class="nav">
+				<ul class="nav_left">
+					<li><a href="#"><img src="images/xing.jpg"></a></li>
+					<li><a href="#"><img src="images/weixin.jpg"></a></li>
+					<li><a href="https://weibo.com/tianhongcn"><img src="images/weibo.jpg"></a></li>
+					<span><img src="images/erwei.jpg"></span>
+				</ul>
+				<ul class="nav_right">
+					<li><a href="#">您好，欢迎来到天虹！</a></li>
+					<li><a href="#">[登录]</a></li>
+					<li><a href="#">[注册]</a></li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">我的天虹</a></li>
+					<li id="cd">
+						<a href="#">客户服务</a>
+           				<span id="jt"></span>
+						<ul class="nav_right_z">
+							<li><a href="#">大客户服务</a></li>
+							<li><a href="#">线上客服</a></li>
+							<li><a href="#">服务热线</a></li>
+						</ul>
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+	    <div class="top">
+	    	<div class="top_T">
+	    		<img src="images/top.jpg" />
+	    		<p id="btn"><span class="iconfont">&#xe68f;</span></p>
+	    	</div>
+	    	<div class="top_B">
+	    		<a href="index.html"><img src="images/logo.png"></a>
+	    		<input type="text" placeholder="自营好货" id="sfrime"/>
+	    		<input type="button" value="搜索" id="btn" />
+	    		<div class="shoppingCart">
+	    			<i></i>
+	    			<span>去购物车结算</span>
+	    			<em></em>
+	    		</div>
+	    		<ul class="ss">
+	    			<li>热门搜索：</li>
+	    			<li><a href="#">Air Jordan</a></li>
+	    			<li><a href="#">自营海外好货</a></li>
+	    			<li><a href="#">尿裤大趴</a></li>
+	    			<li><a href="#">天虹自营好货</a></li>
+	    			<li><a href="#">凉夏电器</a></li>
+	    			<li><a href="#">跑鞋89元起</a></li>
+	    		</ul>
+	    		
+	    	</div>
+	    	<div class="top_M">
+		    		<h2>全部商品分类</h2>
+		    		<ol class="search">
+		    			<li><a href="#">首页</a></li>
+		    			<li><a href="#">天虹官方APP</a></li>
+		    			<li><a href="#">品牌街</a></li>
+		    			<li><a href="#">海外购</a></li>
+		    		</ol>
+	    		</div>
+	    </div>
+	    <div class="banner">
+	    	<ul class="banner_ul">
+		    	<li style="z-index: 3;"><img src="images/banner_1.jpg" alt=""/></li>
+	            <li style="z-index: 2;"><img src="images/banner_2.jpg" alt=""/></li>
+	            <li style="z-index: 1;"><img src="images/banner_3.jpg" alt=""/></li>
+	    	</ul>
+	    	<ol style="z-index: 10;" class="banner_ol">
+	            <li class="current"></li>
+	            <li></li>
+	            <li></li>
+        	</ol>
+        	<ul class="tab">
+        		<li>
+        			<img src="images/tab.png"> 
+        			<span class="iconfont">&#xe602;</span>
+        			<a href="#">食品饮料、生鲜熟食</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe63a;</span>
+        			<a href="#">厨卫清洁、纸品家纺</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe611;</span>
+        			<a href="#">母婴用品、儿童玩具</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe638;</span>
+        			<a href="#">美容护理、洗护沐浴</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe60a;</span>
+        			<a href="#">计生情趣、成人用品</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe607;</span>
+        			<a href="#">婴童服装、孕妇护理</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe60a;</span>
+        			<a href="#">男装女装、运动户外</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe613;</span>
+        			<a href="#">鞋靴箱包、钟表配饰</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe7fd;</span>
+        			<a href="#">生活家电、办公设备</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe600;</span>
+        			<a href="#">大牌齐聚、专柜同款</a>
+        		</li>
+        		<li>
+        			<img src="images/tab.png">
+        			<span class="iconfont">&#xe74d;</span>
+        			<a href="#">全球好货、品质保证</a>
+        		</li>
+        	</ul>
+        	<p class="left"><span class="iconfont">&#xe667;</span></p>
+        	<p class="right"><span class="iconfont">&#xe601;</span></p>
+        	<div class="banner_right">
+        		<img src="images/banner_top.png">
+        		<dl class="banner_right_B">
+        			<!--<dt>公告咨询</dt>
+        			<dd><span>[特惠]</span>海淘护肤美妆节</dd>
+        			<dd>[公告]天虹深圳市配送时效修...</dd>
+        			<dd>[特惠]关于不正当购物行为的...</dd>
+        			<dd>[公告]海淘消费者告知书</dd>
+        			<dd>[特惠]</dd>-->
+        		</dl>
+        	</div>
+	    </div>
+		<div class="content">
+			<div class="content_top">
+				<a href="#" class="prev"><span class="iconfont">&#xe667;</span></a>
+				<a href="#" class="next"><span class="iconfont">&#xe601;</span></a>
+				<ul>
+					<li><a href="#"><img src="images/content_1.png"></a></li>
+					<li><a href="#"><img src="images/content_2.png"></a></li>
+					<li><a href="#"><img src="images/content_3.png"></a></li>
+					<li><a href="#"><img src="images/content_4.png"></a></li>
+				</ul>
+			</div>
+			<div class="content_middle">
+ 				<div class="content_middle_l">
+					<ul class="content_middle_l_top">
+						<li class="b1">
+							<a href="#">海外购</a>
+							<span><img src="images/jt.png"></span>
+						</li>
+						<li class="b1">
+							<a href="#">全球生鲜</a>
+							<span><img src="images/jt.png"></span>
+						</li>
+				   </ul>
+				   <div>
+				    <div class="content_middle_l_bottom1 a1">
+				    	<!--<li><a href="#"><img src="images/hw_1.jpg"></a></li>
+				    	<li><a href="#"><img src="images/hw_2.jpg"></a></li>
+				    	<li><a href="#"><img src="images/hw_3.jpg"></a></li>
+				    	<li><a href="#"><img src="images/hw_4.jpg"></a></li>
+				    	<li><a href="#"><img src="images/hw_5.jpg"></a></li>-->
+				    </div>
+				    <div class="content_middle_l_bottom2 a1">
+				    	<!--<li>
+				    		<a href="#"><img src="images/qq_5.png"/></a>
+				    		<p><a href="#">崇鲜 挪威进口</br>
+				    			冰鲜三文鱼刺身</br>
+				    			400g 盒装 生鱼</a></p>
+				    		<span>￥99.00</span>
+				    		<del>￥138.00</del>
+				    	</li>-->
+				    </div>
+				</div>
+ 				</div>
+				<div class="content_middle_r">
+					<p class="tj"><a href="#">今日推荐</a></p>
+					<div class="tj_c">
+						<img src="images/tj_1.jpg"  height="180" width="180px"/>
+						<span>一见倾心 -- YSL红管14#</span>
+					</div>
+					<div class="tj_c ">
+						<img src="images/tj_2.jpg" height="180" width="180px" />
+						<span>一瓶在手 ， 美颜我有</span>
+					</div>
+				</div>
+			</div>
+		    <div class="content_bottom">
+		    	<h2><a href="#">美食馆</a></h2>
+		    	<ul class="menu">
+		    		<li><a href="#">美食推荐</a></li>
+		    		<li><a href="#">精品推荐</a></li>
+		    		<li><a href="#">粮油奶品</a></li>
+		    		<li><a href="#">吃货天堂</a></li>
+		    		<li><a href="#">畅饮保健</a></li>
+		    	</ul>
+		        <div class="content_bottom_b">
+		        	<div class="content_bottom_b_l">
+		        		<img src="images/msg_1.jpg" />
+		        		<ul class="bottom_menu">
+		        			<li><a href="#">精品粮油</a></li>
+		        			<li><a href="#">聚餐饮品</a></li>
+		        			<li><a href="#">零食乐园</a></li>
+		        			<li><a href="#">缤纷果鲜</a></li>
+		        			<li><a href="#">营养奶品</a></li>
+		        			<li><a href="#">保健滋补</a></li>
+		        			<li><a href="#">冲饮茶叶</a></li>
+		        			<li><a href="#">全球海鲜</a></li>
+		        		</ul>
+		        	</div>
+		        	<div class="a3">
+		        	<ul class="content_bottom_b_m">
+		        		<li><a href="#"><img src="images/msg_2.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_3.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_4.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_6.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_7.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_8.jpg"></a></li>
+		        	</ul>
+				    <div class="content_bottom_b_r">
+		        		<img src="images/msg_.jpg" />
+		        		<img src="images/msg_9.jpg">
+		        	</div>
+		        	</div>
+		        	<ul class="content_bottom_b_m1 a3">
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        	</ul>
+		        	<ul class="content_bottom_b_m1 a3">
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        	</ul>
+		        	<ul class="content_bottom_b_m1 a3">
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        	</ul>
+		        	<ul class="content_bottom_b_m1 a3">
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        		<li>
+		        			<a href="#"><img src="images/msjx_1.jpg"></a>
+		        			<p>刀唛芥花籽油<span>(5L)</span></p>
+		        			<span>￥78.50</span>
+		        			<del>￥89.90</del>
+		        		</li>
+		        	</ul>
+		        </div>
+		    </div>
+		    <div class="content_bottom">
+		    	<h2><a href="#">生活馆</a></h2>
+		    	<ul class="menu">
+		    		<li><a href="#">美食推荐</a></li>
+		    		<li><a href="#">精品推荐</a></li>
+		    		<li><a href="#">粮油奶品</a></li>
+		    		<li><a href="#">吃货天堂</a></li>
+		    		<li><a href="#">畅饮保健</a></li>
+		    	</ul>
+		        <div class="content_bottom_b">
+		        	<div class="content_bottom_b_l">
+		        		<img src="images/msg_1.jpg" />
+		        		<ul class="bottom_menu">
+		        			<li><a href="#">精品粮油</a></li>
+		        			<li><a href="#">聚餐饮品</a></li>
+		        			<li><a href="#">零食乐园</a></li>
+		        			<li><a href="#">缤纷果鲜</a></li>
+		        			<li><a href="#">营养奶品</a></li>
+		        			<li><a href="#">保健滋补</a></li>
+		        			<li><a href="#">冲饮茶叶</a></li>
+		        			<li><a href="#">全球海鲜</a></li>
+		        		</ul>
+		        	</div>
+		        	<ul class="content_bottom_b_m">
+		        		<li><a href="#"><img src="images/msg_2.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_3.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_4.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_6.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_7.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_8.jpg"></a></li>
+		        	</ul>
+				    <div class="content_bottom_b_r">
+		        		<img src="images/msg_.jpg" />
+		        		<img src="images/msg_9.jpg">
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="content_bottom">
+		    	<h2><a href="#">生活电器</a></h2>
+		    	<ul class="menu">
+		    		<li><a href="#">美食推荐</a></li>
+		    		<li><a href="#">精品推荐</a></li>
+		    		<li><a href="#">粮油奶品</a></li>
+		    		<li><a href="#">吃货天堂</a></li>
+		    		<li><a href="#">畅饮保健</a></li>
+		    	</ul>
+		        <div class="content_bottom_b">
+		        	<div class="content_bottom_b_l">
+		        		<img src="images/msg_1.jpg" />
+		        		<ul class="bottom_menu">
+		        			<li><a href="#">精品粮油</a></li>
+		        			<li><a href="#">聚餐饮品</a></li>
+		        			<li><a href="#">零食乐园</a></li>
+		        			<li><a href="#">缤纷果鲜</a></li>
+		        			<li><a href="#">营养奶品</a></li>
+		        			<li><a href="#">保健滋补</a></li>
+		        			<li><a href="#">冲饮茶叶</a></li>
+		        			<li><a href="#">全球海鲜</a></li>
+		        		</ul>
+		        	</div>
+		        	<ul class="content_bottom_b_m">
+		        		<li><a href="#"><img src="images/msg_2.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_3.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_4.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_6.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_7.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_8.jpg"></a></li>
+		        	</ul>
+				    <div class="content_bottom_b_r">
+		        		<img src="images/msg_.jpg" />
+		        		<img src="images/msg_9.jpg">
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="content_bottom">
+		    	<h2><a href="#">服饰馆</a></h2>
+		    	<ul class="menu">
+		    		<li><a href="#">美食推荐</a></li>
+		    		<li><a href="#">精品推荐</a></li>
+		    		<li><a href="#">粮油奶品</a></li>
+		    		<li><a href="#">吃货天堂</a></li>
+		    		<li><a href="#">畅饮保健</a></li>
+		    	</ul>
+		        <div class="content_bottom_b">
+		        	<div class="content_bottom_b_l">
+		        		<img src="images/msg_1.jpg" />
+		        		<ul class="bottom_menu">
+		        			<li><a href="#">精品粮油</a></li>
+		        			<li><a href="#">聚餐饮品</a></li>
+		        			<li><a href="#">零食乐园</a></li>
+		        			<li><a href="#">缤纷果鲜</a></li>
+		        			<li><a href="#">营养奶品</a></li>
+		        			<li><a href="#">保健滋补</a></li>
+		        			<li><a href="#">冲饮茶叶</a></li>
+		        			<li><a href="#">全球海鲜</a></li>
+		        		</ul>
+		        	</div>
+		        	<ul class="content_bottom_b_m">
+		        		<li><a href="#"><img src="images/msg_2.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_3.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_4.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_6.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_7.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_8.jpg"></a></li>
+		        	</ul>
+				    <div class="content_bottom_b_r">
+		        		<img src="images/msg_.jpg" />
+		        		<img src="images/msg_9.jpg">
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="content_bottom">
+		    	<h2><a href="#">妆品馆</a></h2>
+		    	<ul class="menu">
+		    		<li><a href="#">美食推荐</a></li>
+		    		<li><a href="#">精品推荐</a></li>
+		    		<li><a href="#">粮油奶品</a></li>
+		    		<li><a href="#">吃货天堂</a></li>
+		    		<li><a href="#">畅饮保健</a></li>
+		    	</ul>
+		        <div class="content_bottom_b">
+		        	<div class="content_bottom_b_l">
+		        		<img src="images/msg_1.jpg" />
+		        		<ul class="bottom_menu">
+		        			<li><a href="#">精品粮油</a></li>
+		        			<li><a href="#">聚餐饮品</a></li>
+		        			<li><a href="#">零食乐园</a></li>
+		        			<li><a href="#">缤纷果鲜</a></li>
+		        			<li><a href="#">营养奶品</a></li>
+		        			<li><a href="#">保健滋补</a></li>
+		        			<li><a href="#">冲饮茶叶</a></li>
+		        			<li><a href="#">全球海鲜</a></li>
+		        		</ul>
+		        	</div>
+		        	<ul class="content_bottom_b_m">
+		        		<li><a href="#"><img src="images/msg_2.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_3.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_4.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_6.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_7.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_8.jpg"></a></li>
+		        	</ul>
+				    <div class="content_bottom_b_r">
+		        		<img src="images/msg_.jpg" />
+		        		<img src="images/msg_9.jpg">
+		        	</div>
+		       </div>
+		       
+		    </div>
+		    <div class="pp">
+		    		<ul class="pp_n">
+		    			<li><a href="#"><img src="images/pp_1.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_2.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_3.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_4.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_5.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_6.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_7.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_8.jpg"></a></li>
+		    			<li><a href="#"><img src="images/pp_9.jpg"></a></li>
+		    		</ul>
+		    	</div>
+		    <div class="content_bottom">
+		    	<h2><a href="#">母婴馆</a></h2>
+		    	<ul class="menu">
+		    		<li><a href="#">美食推荐</a></li>
+		    		<li><a href="#">精品推荐</a></li>
+		    		<li><a href="#">粮油奶品</a></li>
+		    		<li><a href="#">吃货天堂</a></li>
+		    		<li><a href="#">畅饮保健</a></li>
+		    	</ul>
+		        <div class="content_bottom_b">
+		        	<div class="content_bottom_b_l">
+		        		<img src="images/msg_1.jpg" />
+		        		<ul class="bottom_menu">
+		        			<li><a href="#">精品粮油</a></li>
+		        			<li><a href="#">聚餐饮品</a></li>
+		        			<li><a href="#">零食乐园</a></li>
+		        			<li><a href="#">缤纷果鲜</a></li>
+		        			<li><a href="#">营养奶品</a></li>
+		        			<li><a href="#">保健滋补</a></li>
+		        			<li><a href="#">冲饮茶叶</a></li>
+		        			<li><a href="#">全球海鲜</a></li>
+		        		</ul>
+		        	</div>
+		        	<ul class="content_bottom_b_m">
+		        		<li><a href="#"><img src="images/msg_2.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_3.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_4.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_6.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_7.jpg"></a></li>
+		        		<li><a href="#"><img src="images/msg_8.jpg"></a></li>
+		        	</ul>
+				    <div class="content_bottom_b_r">
+		        		<img src="images/msg_.jpg" />
+		        		<img src="images/msg_9.jpg">
+		        	</div>
+		        </div>
+		    </div>
+
+		</div>
+		<div class="foot">
+			<div class="list_menu">
+				<dl class="m1">
+					<dt><a href="#">新手指南</a></dt>
+					<dd><a href="#">会员专区</a></dd>
+					<dd><a href="#">换购/买赠活动流程</a></dd>
+					<dd><a href="#">会员规则</a></dd>
+					<dd><a href="#">购物券使用规则</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">配送方式</a></dt>
+					<dd><a href="#">配送收费与时效</a></dd>
+					<dd><a href="#">商品验收及签收</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">支付方式</a></dt>
+					<dd><a href="#">发票制度</a></dd>
+					<dd><a href="#">在线支付</a></dd>
+					<dd><a href="#">货到付款</a></dd>
+					<dd><a href="#">购物卡支付</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">天虹海外购</a></dt>
+					<dd><a href="#">海外购物小贴士</a></dd>
+					<dd><a href="#">天虹品质承诺</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">售后服务</a></dt>
+					<dd><a href="#">商品安装与维修</a></dd>
+					<dd><a href="#">特殊订单处理公示</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">客服中心</a></dt>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">门店地址电话</a></dd>
+					<dd><a href="#">常见问题</a></dd>
+				</dl>
+				<div class="map">
+					<p><a href="#">门店服务</a></p>
+					<p><a href="#">我们在全国有64家门店为您提供退货等<br>
+					贴心的优质服务
+					</a></p>
+				</div>
+				</div>
+				<div class="foot_tb">
+					<a href="#">
+						<span class="iconfont">&#xe639;</span>
+						<p>品质保证</p>
+						<span>共享实体供应链<br>安全退货</span>
+					</a>
+					<a href="#">
+						<span class="iconfont">&#xe639;</span>
+						<p>品质保证</p>
+						<span>共享实体供应链<br>安全退货</span>
+					</a>
+					<a href="#">
+						<span class="iconfont">&#xe639;</span>
+						<p>品质保证</p>
+						<span>共享实体供应链<br>安全退货</span>
+					</a>
+					<a href="#">
+						<span class="iconfont">&#xe639;</span>
+						<p>品质保证</p>
+						<span>共享实体供应链<br>安全退货</span>
+					</a>
+					<a href="#">
+						<span class="iconfont">&#xe639;</span>
+						<p>品质保证</p>
+						<span>共享实体供应链<br>安全退货</span>
+					</a>
+				</div>
+				<div class="bottom_list">
+					<ul>
+						<li><a href="#">大客户服务</a></li>
+						<li><a href="#">天虹门户</a></li>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">质量价格保障</a></li>
+						<li><a href="#">开放平台规则</a></li>
+						<li><a href="#">友情链接</a></li>
+						<li><a href="#">品牌招商</a></li>
+					</ul>
+				</div>
+				<div class="addr_t">
+				<p class="addr">
+					<a href="#">用户使用条款和隐私政策</a>
+					<a href="#">营业执照</a>
+					<a href="#">粤ICP备11065574号-7</a>
+				</p>
+				<p class="addr_r">
+					　　Copyright© 天虹 2009-2019, All RightsReserved　　　天虹商场股份有限公司 版权所有
+				</p>
+				</div>
+				<div class="bottom_bottom">
+					<a href="#"><img src="images/bb_1.gif"></a>
+					<a href="#"><img src="images/bb_2.gif"></a>
+					<a href="#"><img src="images/bb_3.gif"></a>
+					<a href="#"><img src="images/bb_4.gif"></a>
+					<a href="#"><img src="images/bb_5.gif"></a>
+					<a href="#"><img src="images/bb_6.png"></a>
+					<p>粤公网安备 44030502001023号</p>
+				</div>
+		</div>
+	</body>
+</html>
